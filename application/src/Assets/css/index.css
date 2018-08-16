@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif !important;
+}
+html,body{
+	width:100%;
+	height:100%;
+	background: linear-gradient(180deg, #191b24, #191b24);
+}
+.clear{
+	clear: both;
+}
+.text-bold{
+	font-weight: bold;
+}
+.headerTitle{
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+}
+.headerSubTitle {
+	background: #777;
+    display: table;
+    width: 100%;
+    padding: 10px;
+}
+.displayCell{
+	display: table-cell;
+	vertical-align: middle;
+}
+.headerSubTitle p{
+	font-size: 22px;
+	color: #fff;
+	/*font-weight: bold;*/
+	background: #777;
+	margin-bottom: 0
+}
+.hidden{
+	display: none;
+}
+.customerDetailsHolder{
+	background: #fff;
+}
+.filterCustomerholder,.customerDetailsHolder{
+	width: 96%;
+    margin: 0 2%;
+    padding: 15px 0;
+    float: left;
+}
+.customerCard{
+	width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    display: table;
+	-webkit-box-shadow: -1px 0px 5px 4px rgba(214,214,214,0.61);
+	-moz-box-shadow: -1px 0px 5px 4px rgba(214,214,214,0.61);
+	box-shadow: -1px 0px 5px 4px rgba(214,214,214,0.61);
+}
+input[type="search"] {
+  	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+/*    border-radius: 4px;*/
+    outline: none;
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: 97%;
+}
+.nopadding{
+	padding: 0 !important
+}
+.labelStyle1{
+	color: #fff;
+	font-weight: normal;
+	line-height: 28px;
+}
+.addCustomerBtn{
+	padding-left: 40px !important; 
+	background-image: url("../images/add-user.png") !important;
+    background-repeat: no-repeat;
+    background-position: 2%;
+}
+.viewInfo,.viewNotes{
+	width: 30px;
+	height:30px;
+	border-radius:15px;
+	margin-left:5px;
+	margin-top: 10px;
+}
+.viewInfo{
+	border-color: brown;
+	color:brown;
+}
+.viewNotes{
+	border-color: darkorange;
+	color:darkorange;
+}
+.viewInfo:hover{
+	border: 2px solid brown;
+}
+.react-datetime-picker__button {
+    border: thin solid #ccc !important;
+    border-radius: 4px;
+    width: 100%;
+    color:#555 !important;
+}
+input[readonly] {
+    background-color: #fff !important;
+    box-shadow: none !important; 
+    border: none;
+
+}
+textarea[readonly] {
+    background-color: #eee !important;
+
+}
+.showfield{
+	display: block;
+}
+.hidefield{
+	display: none !important;
+}
+.form-group {
+    margin-bottom: 7px !important;
+}
+.fontstyle1{
+ 	font-size: 12px;
+    font-style: italic;
+    color: gray
+ }
+ .fontstyle2{
+ 	font-size: 10px
+ }
+@media (max-width: 768px) { 
+	.searchComponent{
+		margin-top: 10px;
+		clear: both;
+	}
+ }
